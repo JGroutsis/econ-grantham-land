@@ -11,11 +11,11 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-background border-b border-border">
-      <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+      <div className="container mx-auto px-4 md:px-6 h-20 md:h-24 flex items-center justify-between">
         <img 
           src={econLogo} 
           alt="Econ Property" 
-          className="h-8 md:h-10"
+          className="h-16 md:h-20"
         />
         <Button 
           onClick={scrollToContact}
