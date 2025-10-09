@@ -18,14 +18,14 @@ const Location = () => {
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="rounded-lg overflow-hidden shadow-lg bg-background">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3312.8!2d150.8630!3d-33.6621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau"
+              src="https://maps.google.com/maps?q=-33.6621,150.8630&z=15&output=embed"
               width="100%"
               height="400"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Map showing location at 33.6621° S, 150.8630° E"
+              title="Map showing Edward Street, Grantham Farm"
             />
           </div>
 
