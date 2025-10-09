@@ -56,7 +56,7 @@ const Hero = () => {
               <img 
                 src={propertyHero} 
                 alt="Aerial view of Lots 81–84, Edward Street, Grantham Farm" 
-                className="w-full h-auto"
+                className="w-full h-auto object-cover aspect-[4/3]"
               />
             </div>
           </div>
