@@ -7,7 +7,7 @@ const Agent = () => {
   const handleEmail = () => {
     window.location.href = "mailto:theo@econproperty.com.au";
   };
-  return <section className="w-full bg-secondary py-12 md:py-16">
+  return <section id="contact" className="w-full bg-secondary py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-8">Contact Agent</h2>
         

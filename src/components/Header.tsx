@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 import econLogo from "@/assets/econproperty-logo.png";
 
 const Header = () => {
-  const scrollToEnquiry = () => {
-    const enquirySection = document.getElementById('enquiry-form');
-    if (enquirySection) {
-      enquirySection.scrollIntoView({ behavior: 'smooth' });
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -18,7 +18,7 @@ const Header = () => {
           className="h-8 md:h-10"
         />
         <Button 
-          onClick={scrollToEnquiry}
+          onClick={scrollToContact}
           variant="accent"
           size="sm"
           className="text-sm md:text-base"
