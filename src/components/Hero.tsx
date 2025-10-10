@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Mail } from "lucide-react";
-import propertyHero from "@/assets/lots-81-84-aerial.png";
+import propertyHero from "@/assets/property-hero.png";
 const Hero = () => {
   const handleCall = () => {
     window.location.href = "tel:0412249391";
@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img
                 src={propertyHero}
-                alt="Aerial boundary view of Lots 81-84, Edward Street, Grantham Farm showing property lines and measurements"
+                alt="Aerial view of Lots 81-84, Edward Street, Grantham Farm"
                 className="w-full h-auto object-cover aspect-[4/3]"
               />
             </div>
