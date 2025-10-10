@@ -21,7 +21,7 @@ const Hero = () => {
             <p className="text-base md:text-lg leading-relaxed">
               Econ Property presents a rare land-banking opportunity in Sydney's fast-growing North West. Lots 81–84
               Edward Street Grantham Farm are well positioned amongst the ongoing residential expansion of the area. 4x
-              556.5 m^2 lots to be sold in one line, totalling 2,226m^2.{" "}
+              556.5m² lots to be sold in one line, totalling 2,226m².{" "}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
