@@ -1,10 +1,6 @@
 const KeyDetails = () => {
   const details = [
     {
-      label: "Status",
-      value: "Vacant unregistered land",
-    },
-    {
       label: "Location",
       value: "Grantham Farm, Blacktown City Council",
     },
@@ -19,10 +15,6 @@ const KeyDetails = () => {
     {
       label: "Area",
       value: "~2,200 m²",
-    },
-    {
-      label: "Availability",
-      value: "Not available to build at present while unregistered.",
     },
   ];
 
