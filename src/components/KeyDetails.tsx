@@ -14,7 +14,7 @@ const KeyDetails = () => {
     },
     {
       label: "Area",
-      value: "2,226 m²",
+      value: "2,226 m² (4x 556.5 m² Lots)",
     },
   ];
 
