@@ -18,7 +18,7 @@ const KeyDetails = () => {
     },
     {
       label: "Area",
-      value: "Unknown. Do not estimate.",
+      value: "~2,200 m²",
     },
     {
       label: "Availability",
