@@ -16,17 +16,23 @@ const Location = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-8">Location</h2>
         
         <div className="grid lg:grid-cols-2 gap-8">
-          <div className="rounded-lg overflow-hidden shadow-lg bg-background">
-            <iframe
-              src="https://maps.google.com/maps?q=-33.6621,150.8630&z=15&output=embed"
-              width="100%"
-              height="400"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Map showing Edward Street, Grantham Farm"
-            />
+          <div className="space-y-4">
+            <div className="flex items-center gap-2 text-lg font-semibold">
+              <MapPin className="h-5 w-5 text-accent" />
+              <span>Lots 81-84 Edward Street, Grantham Farm</span>
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-lg bg-background">
+              <iframe
+                src="https://maps.google.com/maps?q=-33.6621,150.8630&z=15&output=embed"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Map showing Edward Street, Grantham Farm"
+              />
+            </div>
           </div>
 
           <div className="space-y-4">
