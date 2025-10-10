@@ -10,7 +10,7 @@ const Disclosure = () => {
                 This material is published by Econ Property Pty Ltd (ABN: 94 676 486 365, Licence No. 10143836) for marketing purposes only. Information is believed reliable but no warranty is given as to accuracy, currency or completeness. To the extent permitted by law, Econ Property and its officers accept no liability for loss arising from reliance on this material.
               </p>
               <p>
-                Registered land: Lots 81–83 Section 11 DP1480, Edward Street, Grantham Farm. Buyers must rely on their own enquiries with Blacktown City Council, NSW Land Registry Services and the NSW Planning Portal regarding zoning, services, constraints and permissible uses. Any development, subdivision or building remains subject to council approval and statutory consents.
+                Registered land: Lots 81-84 Section 11 DP1480, Edward Street, Grantham Farm. Buyers must rely on their own enquiries with Blacktown City Council, NSW Land Registry Services and the NSW Planning Portal regarding zoning, services, constraints and permissible uses. Any development, subdivision or building remains subject to council approval and statutory consents.
               </p>
               <p>
                 Areas, boundaries, easements, flood or bushfire risk and environmental matters should be verified by survey and title. Maps and images are indicative only. Any price guide is an estimate only. The Contract for Sale prevails over marketing. By enquiring you consent to contact. Personal information is handled under the Privacy Act 1988 (Cth). Provided to assist compliance with the Property and Stock Agents Act 2002 (NSW) and the Australian Consumer Law.
