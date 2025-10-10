@@ -11,7 +11,7 @@ const Footer = () => {
             className="h-8 brightness-0 invert"
           />
           <p className="text-sm md:text-base text-center md:text-right">
-            Econ Property. Intelligent property. Real results.
+            Your Trusted Partner in Property
           </p>
         </div>
       </div>
