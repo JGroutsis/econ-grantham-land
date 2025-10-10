@@ -10,7 +10,7 @@ const KeyDetails = () => {
     },
     {
       label: "Services",
-      value: "Unknown. Buyers to make their own enquiries.",
+      value: "Power connected. No water connection, but located in Sydney Water expansion area.",
     },
     {
       label: "Area",
