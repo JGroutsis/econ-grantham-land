@@ -2,7 +2,7 @@ import { CheckCircle } from "lucide-react";
 
 const Highlights = () => {
   const highlights = [
-    "Vacant registered land in Grantham Farm",
+    "4 lots to be sold in one line",
     "Located within Blacktown City Council",
     "Surrounded by ongoing residential growth across the Riverstone precinct",
     "Connectivity to Riverstone and Vineyard train stations, with links to Windsor Road and the M7",
