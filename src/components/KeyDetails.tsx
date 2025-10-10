@@ -10,7 +10,7 @@ const KeyDetails = () => {
     },
     {
       label: "Services",
-      value: "Power connected. No water connection, but located in Sydney Water expansion area.",
+      value: "Power connected. No water connection, but located in Sydney Water expansion area. Buyers to make their own enquiries.",
     },
     {
       label: "Area",
