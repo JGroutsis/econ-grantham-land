@@ -46,7 +46,9 @@ const Hero = () => {
                 src={propertyHero}
                 alt="Aerial view of Lots 81-84, Edward Street, Grantham Farm"
                 className="h-full w-full object-cover"
-                loading="lazy"
+                fetchPriority="high"
+                width={960}
+                height={1202}
               />
             </AspectRatio>
           </div>

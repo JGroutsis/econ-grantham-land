@@ -9,6 +9,8 @@ const Footer = () => {
             src={econLogo} 
             alt="Econ Property" 
             className="h-8 brightness-0 invert"
+            width={1920}
+            height={881}
           />
           <p className="text-sm md:text-base text-center md:text-right">
             Your Trusted Partner in Property

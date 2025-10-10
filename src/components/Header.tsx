@@ -16,6 +16,8 @@ const Header = () => {
           src={econLogo} 
           alt="Econ Property" 
           className="h-16 md:h-20"
+          width={1920}
+          height={881}
         />
         <Button 
           onClick={scrollToContact}
