@@ -8,18 +8,21 @@ const Hero = () => {
   const handleEmail = () => {
     window.location.href = "mailto:theo@econproperty.com.au";
   };
-  return <section className="w-full">
+  return (
+    <section className="w-full">
       <div className="container mx-auto px-4 md:px-6 py-12 md:py-20">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">Live Off The Grid</h1>
-              <p className="text-xl md:text-2xl text-muted-foreground">
-                Lots 81–84, Edward Street
-              </p>
+              <p className="text-xl md:text-2xl text-muted-foreground">Lots 81–84, Edward Street</p>
             </div>
-            
-            <p className="text-base md:text-lg leading-relaxed">Econ Property presents a rare land-banking opportunity in Sydney's fast-growing North West. Lots 81–84 Edward Street Grantham Farm are 4x 556.5 m² lots positioned among ongoing residential expansion. </p>
+
+            <p className="text-base md:text-lg leading-relaxed">
+              Econ Property presents a rare land-banking opportunity in Sydney's fast-growing North West. Lots 81–84
+              Edward Street Grantham Farm are well positioned amongst the ongoing residential expansion of the area. 4x
+              556.5 m^2 lots to be sold in one line, totalling 2,226m^2{" "}
+            </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button onClick={handleCall} variant="default" size="lg" className="font-medium">
@@ -35,11 +38,16 @@ const Hero = () => {
 
           <div className="relative">
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src={propertyHero} alt="Aerial view of Lots 81–84, Edward Street, Grantham Farm" className="w-full h-auto object-cover aspect-[4/3]" />
+              <img
+                src={propertyHero}
+                alt="Aerial view of Lots 81–84, Edward Street, Grantham Farm"
+                className="w-full h-auto object-cover aspect-[4/3]"
+              />
             </div>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default Hero;
