@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Phone, Mail } from "lucide-react";
-import propertyHero from "@/assets/property-hero.png";
+import propertyHero from "@/assets/property-hero.jpg";
 const Hero = () => {
   const handleCall = () => {
     window.location.href = "tel:0412249391";
@@ -37,13 +38,17 @@ const Hero = () => {
           </div>
 
           <div className="relative">
-            <div className="rounded-lg overflow-hidden shadow-lg">
+            <AspectRatio
+              ratio={4 / 5}
+              className="w-full max-w-[480px] mx-auto lg:mx-0 lg:ml-auto rounded-xl overflow-hidden shadow-lg bg-muted/20"
+            >
               <img
                 src={propertyHero}
                 alt="Aerial view of Lots 81-84, Edward Street, Grantham Farm"
-                className="w-full h-auto object-cover aspect-[4/3]"
+                className="h-full w-full object-cover"
+                loading="lazy"
               />
-            </div>
+            </AspectRatio>
           </div>
         </div>
       </div>
