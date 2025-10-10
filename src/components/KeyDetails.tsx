@@ -9,8 +9,8 @@ const KeyDetails = () => {
       value: "Grantham Farm, Blacktown City Council",
     },
     {
-      label: "Zoning note",
-      value: "Nearby Edward Street lots are shown as R2 Low Density Residential in public listings. Buyers must verify zoning for Lots 81–84 on the NSW Planning Portal.",
+      label: "Zoning",
+      value: "R2 Low Density Residential",
     },
     {
       label: "Services",
@@ -42,7 +42,7 @@ const KeyDetails = () => {
 
         <div className="mt-8 p-4 bg-background rounded-lg border border-border">
           <p className="text-sm leading-relaxed">
-            Nearby Edward Street lots are commonly described as R2 Low Density Residential. Zoning, lot size and services for Lots 81–84 must be confirmed on the NSW Planning Portal before any decision.
+            Lots 81–84 are zoned R2 Low Density Residential. Buyers should verify current zoning, lot size and services on the NSW Planning Portal before making any decision.
           </p>
         </div>
       </div>
