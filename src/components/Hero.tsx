@@ -19,7 +19,7 @@ const Hero = () => {
               </p>
             </div>
             
-            <p className="text-base md:text-lg leading-relaxed">Econ Property presents a rare land-banking opportunity in Sydney's fast-growing North West. Lots 81–84 on Edward Street, Grantham Farm are vacant unregistered land positioned among ongoing residential expansion. </p>
+            <p className="text-base md:text-lg leading-relaxed">Econ Property presents a rare land-banking opportunity in Sydney's fast-growing North West. Lots 81–84 on Edward Street, Grantham Farm are 4x 556.5 m² lots positioned among ongoing residential expansion. </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button onClick={handleCall} variant="default" size="lg" className="font-medium">
