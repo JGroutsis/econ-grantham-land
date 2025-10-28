@@ -5,7 +5,7 @@ const Agent = () => {
     window.location.href = "tel:0412249391";
   };
   const handleEmail = () => {
-    window.location.href = "mailto:theo@econproperty.com.au";
+    window.location.href = "mailto:theo.groutsis@econproperty.com.au";
   };
   return <section id="contact" className="w-full bg-secondary py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-6">
@@ -24,8 +24,8 @@ const Agent = () => {
                 </p>
                 <p className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  <a href="mailto:theo@econproperty.com.au" className="hover:text-accent transition-colors">
-                    theo@econproperty.com.au
+                  <a href="mailto:theo.groutsis@econproperty.com.au" className="hover:text-accent transition-colors">
+                    theo.groutsis@econproperty.com.au
                   </a>
                 </p>
               </div>
