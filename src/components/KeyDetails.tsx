@@ -1,6 +1,10 @@
 const KeyDetails = () => {
   const details = [
     {
+      label: "Asking Price",
+      value: "$899,000",
+    },
+    {
       label: "Location",
       value: "Grantham Farm, Blacktown City Council",
     },
